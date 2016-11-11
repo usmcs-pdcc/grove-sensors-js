@@ -15,7 +15,6 @@ http.listen(44444, function() {
 
 app.use(express.static(__dirname));
 
-
 io.on('connection', function(socket) {
 	console.log("user connected!");
 
