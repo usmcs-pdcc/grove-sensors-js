@@ -14,6 +14,8 @@ Lists
 
 - 05: Simple hello SocketIO to HTML page.
 
+- 06: Deployed with [Retrospect](https://templated.co/retrospect) template. 
+
 Author
 ------
 - hadrihl // (hadrihilmi@gmail.com)

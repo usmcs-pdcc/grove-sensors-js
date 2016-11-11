@@ -1,0 +1,8 @@
+{
+	"name": "moisture",
+	"description": "simple moisture sensor on Galileo",
+	"dependencies": {
+		"express": "*",
+		"socket.io": "*"
+	}
+}
