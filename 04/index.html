@@ -1,0 +1,15 @@
+<html>
+<head><title>this is the title</title>
+	<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+	<script>
+		var socket = io();
+		socket.on('stream', function(data) {
+			document.getElementById("myspan").textContent = data;
+		});
+	</script>
+</head>
+<body>
+	<h2>this is simple client.html for PIR</h2>
+	<span id="myspan">data </span>
+</body>
+</html>
